@@ -1,0 +1,49 @@
+/* Add your CSS here to style the photography portfolio*/
+
+/* Go here to get fonts: https://fonts.google.com/*/
+/* Select a font, and copy it's @import statement. Paste at the top of this file.*/
+
+/* Flexbox cheat sheet: https://flexbox.malven.co/*/
+body {
+    margin: auto 0;
+    display: grid;
+    
+}
+img {
+    max-width: 300px;
+}
+
+#img-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 1400px;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 80%;
+    gap: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2{
+    font-family: "Lora";
+    text-align: center;
+}
+
+nav {
+    background-color: cadetblue;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: ivory;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 10px;
+}
